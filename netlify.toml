@@ -1,5 +1,5 @@
 [template.environment]
-  MEDUSA_BACKEND_URL="https://medusajs-server-production-5eb5.up.railway.app/"
+  MEDUSA_BACKEND_URL="https://api.haraprasad.in"
 
 [build]
   publish = "public/"

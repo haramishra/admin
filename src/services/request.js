@@ -6,7 +6,7 @@ const client = axios.create({ baseURL: medusaUrl })
 export default function medusaRequest(method, path = "", payload = {}) {
   const options = {
     method,
-    withCredentials: false,
+    withCredentials: true,
     url: path,
     data: payload,
     json: true,
